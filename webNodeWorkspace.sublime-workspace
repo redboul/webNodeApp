@@ -1,0 +1,584 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bower",
+				"bowerInstallDependencies"
+			],
+			[
+				"ng-hr",
+				"ng-href	AngularJS"
+			],
+			[
+				"$root",
+				"$rootScope	AngularJS"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"heig",
+				"height"
+			],
+			[
+				"htt",
+				"httpBackend"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"WEB_",
+				"WEB_SP_PROJECT"
+			],
+			[
+				"HOME_WEB",
+				"HOME_WEB_SP"
+			],
+			[
+				"En",
+				"ENGINE_PROJECT"
+			],
+			[
+				"HOME",
+				"HOME_ENGINE"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"engine",
+				"engineFiles"
+			],
+			[
+				"ENGI",
+				"HOME_ENGINE"
+			],
+			[
+				"deploy",
+				"deployENGINE"
+			],
+			[
+				"HOME_eNG",
+				"HOME_ENGINE_SP"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/julienreboul/workspace-distrib/bonita-distrib/pom.xml",
+			"settings":
+			{
+				"buffer_size": 2758,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/julienreboul/workspace-web/bonita-web/server/pom.xml",
+			"settings":
+			{
+				"buffer_size": 17333,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 117.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"packages",
+				"Package Control: Discover Packages"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/portal/scripts/app.js",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/karma.conf.js",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/Gruntfile.js",
+		"/home/julienreboul/workspace-web/bonita-web/server/target/bonita-home/bonita/client/tenants/1/work/theme/portal/BonitaConsole.html",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/portal.js/dependencies.html",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/.bowerrc",
+		"/home/julienreboul/workspace-web/bonita-web-sp/server-sp/pom.xml",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/dist/scripts/bonita-portal-2.0.js",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/app/index.html",
+		"/home/julienreboul/workspace-web/bonita-web/server/pom.xml",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/dist/404.html",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/app/portal.js/dependencies.html",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/app/dependencies.html",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/dist/dependencies.html",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/app/scripts/bonita-portal-2.0.js",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/dist/index.html",
+		"/home/julienreboul/workspace-distrib/bonita-distrib/bundle/tomcat/target/BOS-6.3.1-Tomcat-6.0.37/apache-tomcat-6.0.37/webapps/bonita/portal.js/dependencies.html",
+		"/home/julienreboul/workspace-distrib/bonita-distrib/deploy/all-in-one/pom.xml",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/pom.xml",
+		"/home/julienreboul/workspace-web/bonita-web/pom.xml",
+		"/home/julienreboul/workspace-distrib/bonita-distrib/pom.xml",
+		"/home/julienreboul/workspace-web/bonita-web/po",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/bower.json",
+		"/home/julienreboul/workspace-other/webNodeApp/Gruntfile.js",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/app/scripts/app.js",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/app/scripts/controllers/cases.js",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/src/main/webapp/static/app/views/cases.html",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/.gitignore",
+		"/home/julienreboul/workspace-web/bonita-web/.gitignore",
+		"/home/julienreboul/workspace-web/bonita-web/bonita-home/pom.xml",
+		"/home/julienreboul/workspace-web/bonita-web/portal/pom.xml",
+		"/home/julienreboul/workspace-web/bonita-web/server/target/console-server-6.3.1/index.html",
+		"/home/julienreboul/workspace-web/bonita-web/server/target/console-server-6.3.1/WEB-INF/web.xml",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/app/views/cases.html",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/Gruntfile.js",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/dist/index.html",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/target-grunt/Gruntfile.js",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/app/scripts/controllers/cases.js",
+		"/home/julienreboul/workspace-web/bonita-web/.git/config",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/app/scripts/app.js",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/app/views/main.html",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/dist/scripts/bonita-portal-2.0.map",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/ll",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/dist/scripts/scripts.js",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/target-grunt/dist/index.html",
+		"/home/julienreboul/workspace-web/bonita-web/portaljs/app/scripts/controllers/main.js",
+		"/home/julienreboul/workspace-web/bonita-internal-tools/web/crowdin/setenv.sh",
+		"/home/julienreboul/workspace-other/webNodeApp/app/views/login.html",
+		"/home/julienreboul/workspace-other/webNodeApp/app/scripts/controllers/login.js",
+		"/home/julienreboul/workspace-web/bonita-internal-tools/web/crowdin/branch2crowdin.sh",
+		"/home/julienreboul/workspace-web/bonita-internal-tools/web/crowdin/crowdin2branch.sh",
+		"/home/julienreboul/workspace-other/webNodeApp/app/scripts/app.js",
+		"/home/julienreboul/workspace-other/webNodeApp/app/views/main.html",
+		"/home/julienreboul/workspace-other/webNodeApp/test/runner.html",
+		"/home/julienreboul/workspace-other/webNodeApp/app/index.html",
+		"/home/julienreboul/workspace-other/webNodeApp/app/scripts/controllers/main.js",
+		"/home/julienreboul/workspace-other/webNodeApp/server/appmongodbangular.js",
+		"/home/julienreboul/workspace-other/webNodeApp/test/e2e/controllers/main.js",
+		"/home/julienreboul/workspace-other/webNodeApp/karma-e2e.conf.js",
+		"/home/julienreboul/workspace-other/webNodeApp/test/spec/controllers/portal.js",
+		"/home/julienreboul/workspace-other/webNodeApp/test/spec/controllers/portal.coffee",
+		"/home/julienreboul/workspace-other/webNodeApp/app/scripts/controllers/portal.coffee",
+		"/home/julienreboul/.oh-my-zsh/oh-my-zsh.sh",
+		"/home/julienreboul/workspace-other/webNodeApp/app/scripts/controllers/user.js",
+		"/home/julienreboul/workspace-other/webNodeApp/test/spec/controllers/main.js",
+		"/home/julienreboul/workspace-other/webNodeApp/test/spec/controllers/login.js",
+		"/home/julienreboul/workspace-other/webNodeApp/app/coffee/controllers/test.coffee",
+		"/home/julienreboul/workspace-other/webNodeApp/app/scripts/controllers/portal.js",
+		"/home/julienreboul/workspace-other/webNodeApp/protractor.conf.js",
+		"/home/julienreboul/workspace-other/webNodeApp/karma.conf.js",
+		"/home/julienreboul/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/julienreboul/workspace-other/webNodeApp/test/spec/controllers/user.js",
+		"/home/julienreboul/Gruntfile.js",
+		"/home/julienreboul/workspace-engine/bonita-engine/services/bonita-services-integration-tests/target/failsafe-reports/TEST-org.bonitasoft.engine.AllTestsWithJNDI.xml",
+		"/home/julienreboul/workspace-engine/bonita-engine/services/bonita-services-integration-tests/target/failsafe-reports/failsafe-summary.xml",
+		"/home/julienreboul/workspace-engine/bonita-engine/services/bonita-services-integration-tests/target/failsafe-reports/org.bonitasoft.engine.AllTestsWithJNDI.txt",
+		"/home/julienreboul/workspace-engine/bonita-engine/services/bonita-services-integration-tests/target/bonita-services-integration-tests_report.201406031657.xml",
+		"/home/julienreboul/workspace-engine/bonita-engine/bpm/bonita-bpm-integration-tests/bonita-integration-local-tests/target/failsafe-reports/org.bonitasoft.engine.LocalIntegrationTests.txt",
+		"/home/julienreboul/workspace-other/webNodeApp/app/styles/main.css",
+		"/home/julienreboul/workspace-web/bonita-qa-tools/selenium-tests/src/test/java/org/bonitasoft/selenium/tests/pm/PMTasksTest.java",
+		"/home/julienreboul/workspace-web/bonita-qa-tools/selenium-tests/src/test/java/org/bonitasoft/selenium/tests/pm/PMTestUtils.java",
+		"/home/julienreboul/Bonita/bundle/6.4.0-SNAP-20140526-tomcat/BonitaBPMSubscription-6.4.0-SNAPSHOT-Tomcat-6.0.37/conf/Catalina/localhost/bonita.xml",
+		"/home/julienreboul/out",
+		"/home/julienreboul/Bonita/Case List Report.sql",
+		"/home/julienreboul/workspace-engine/bonita-engine/bpm/bonita-core/bonita-process-instance/bonita-process-instance-impl/target/surefire-reports/org.bonitasoft.engine.core.process.instance.impl.ProcessInstanceServiceImplTest.txt",
+		"/home/julienreboul/workspace-engine/bonita-engine/bpm/bonita-core/bonita-process-instance/bonita-process-instance-impl/target/surefire-reports/org.bonitasoft.engine.core.process.instance.impl.ActivityInstanceServiceImplTest.txt",
+		"/home/julienreboul/fs.out",
+		"/var/lib/postgresql/9.1/contrib/dblink/dblink--1.0.sql",
+		"/home/julienreboul/.m2/settings.xml",
+		"/home/julienreboul/Bonita/BS-2666/initialize_bonita_platform.py",
+		"/home/julienreboul/Bonita/support/bar/PoutpoutPapillon--1.0/process-design.xml",
+		"/home/julienreboul/workspace-other/webNodeApp/test/spec/controllers/users.js",
+		"/home/julienreboul/workspace-other/webNodeApp/app/bower_components/userapp-angular/angularjs.userapp.js",
+		"/home/julienreboul/workspace-engine/bonita-engine-sp/bpm/bonita-bpm-integration-tests/bonita-integration-local-tests/target/eclipse-bonita-home/server/tenants/1/work/processes/8982954075538606597/server-process-definition.xml",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/conf/Catalina/localhost/bonita.xml",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2-2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/bonita/server/tenants/1/work/processes/8207739573739917679/server-process-definition.xml",
+		"/home/julienreboul/.zshrc",
+		"/home/julienreboul/.oh-my-zsh/plugins/git/git.plugin.zsh",
+		"/opt/tomcat/webapps/cas/WEB-INF/deployerConfigContext.xml",
+		"/home/julienreboul/workspace-engine/bonita-engine-sp/bpm/bonita-bpm-integration-tests/bonita-integration-local-tests/target/eclipse-bonita-home/server/tenants/1/work/processes/9072817211776754575/server-process-definition.xml",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/bin/setenv.sh",
+		"/home/julienreboul/workspace-other/webNodeApp/bower.json",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2-2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/bonita/server/tenants/1/work/processes/9164596689996173718/server-process-definition.xml",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/conf/server.xml",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2-2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/bin/setenv.sh",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2-2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/conf/bitronix-resources.properties",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2-2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/conf/server.xml",
+		"/home/julienreboul/workspace-engine/bonita-migration-sp/bonita-migration-distrib-sp/target/bonita-performance/Config.properties",
+		"/home/julienreboul/workspace-engine/bonita-migration-sp/bonita-migration-integration-tests-sp/build.gradle",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2-2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/conf/Catalina/localhost/bonita.xml",
+		"/home/julienreboul/workspace-engine/bonita-migration-sp/bonita-migration-distrib-sp/target/bonita-migration-distrib/Config.properties",
+		"/home/julienreboul/workspace-engine/bonita-migration-sp/bonita-migration-distrib-sp/target/bonita-performance/bundlle/Config.properties",
+		"/home/julienreboul/workspace-other/webNodeApp/app/views/user.html",
+		"/home/julienreboul/Bonita/forms.xml",
+		"/home/julienreboul/workspace-engine/bonita-engine-sp/bpm/bonita-bpm-integration-tests/bonita-bpm-services-integration-tests/target/bonita-bpm-services-integration-tests_report.201405071801.xml",
+		"/home/julienreboul/workspace-engine/bonita-engine-sp/bpm/bonita-bpm-integration-tests/bonita-bpm-services-integration-tests/target/failsafe-reports/failsafe-summary.xml",
+		"/home/julienreboul/workspace-engine/bonita-engine-sp/bpm/bonita-bpm-integration-tests/bonita-bpm-services-integration-tests/target/failsafe-reports/com.bonitasoft.engine.bpm.test.AllBPMSPTestsWithJNDI.txt",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/bonita/server/platform/conf/bonita-platform.properties",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/bonita/server/tenants/1/work/processes/9194671714840802809/server-process-definition.xml",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/bonita/server/tenants/1/work/processes/7847754350199508090/server-process-definition.xml",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/bonita/server/tenants/1/work/processes/7847754350199508090/resources/forms/forms.xml",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/bonita/server/tenants/1/work/processes/9194671714840802809/resources/forms/forms.xml",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/bin/set",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/conf/catalina.properties",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/conf/bitronix-resources.properties",
+		"/home/julienreboul/Bonita/bundle/tomcat-6.0.2/BonitaBPMSubscription-6.0.2-Tomcat-6.0.35/conf/bitronix-config.properties",
+		"/home/julienreboul/Bonita/Studio-master-20140505/BonitaBPMSubscription-6.3.0-SNAPSHOT/BonitaBPMSubscription64-linux.ini",
+		"/home/julienreboul/workspace-distrib/bonita-distrib-sp/deploy/war-ear/pom.xml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"portal.js",
+			"app",
+			"portal.js",
+			"bonita-port",
+			"bowerInstall",
+			"\n",
+			"poutpou",
+			"console-client",
+			"></",
+			"angular",
+			"uglify",
+			"\"",
+			"application_root",
+			"e2e",
+			"load",
+			"Transient",
+			"$location",
+			"createProcessWithAUserTaskAndThenAFailingTask",
+			"301",
+			"\">",
+			"karma",
+			"function browser",
+			"browser",
+			"1",
+			"/>\n",
+			"/>",
+			"AdminCtrl",
+			"userapp",
+			"&",
+			"readonly",
+			"group",
+			".DocumentBuilderFactoryImpl",
+			".DocumentBuilderFactory",
+			"/jar/.*xml",
+			"xml",
+			"jett",
+			"jetty",
+			"thomas.wallis",
+			"studio",
+			"xml",
+			"org.w3c.dom.DOMConfiguration",
+			"u",
+			"paul",
+			"installBusinessData",
+			"deployEngine",
+			"$3",
+			"$2",
+			"$1",
+			"HOME_ENGINE",
+			"ENGINE_PROJECT",
+			"FILES_ENGINE",
+			"DESTINATION",
+			"destination",
+			"DESTINATION",
+			" $",
+			"local",
+			"bonita-engine-deploy",
+			"grep",
+			"BONITA_JAR",
+			"isExplosionDestinationExists",
+			"?",
+			"? =",
+			"=?",
+			"? =",
+			"=?",
+			"? =",
+			"?",
+			"select count(distinct sflownodei0_.id) as col_0_0_ from flownode_instance sflownodei0_ cross join process_instance sprocessin1_ where 1 = sflownodei0_.tenantid and 1 = sprocessin1_.tenantid and sflownodei0_.deleted=false and sflownodei0_.rootContainerId=sprocessin1_.id and (sprocessin1_.processDefinitionId in (select sprocesssu2_.processDefId from processsupervisor sprocesssu2_ where 1 = sprocesssu2_.tenantid and (sprocesssu2_.userId=2 or sprocesssu2_.id in (select sprocesssu3_.id from processsupervisor sprocesssu3_ cross join user_membership susermembe4_ where 1 = sprocesssu3_.tenantid and 1 = susermembe4_.tenantid and susermembe4_.userId=2 and (sprocesssu3_.groupId=susermembe4_.groupId and sprocesssu3_.roleId<=0 or sprocesssu3_.roleId=susermembe4_.roleId and sprocesssu3_.groupId<=0 or sprocesssu3_.roleId=susermembe4_.roleId and sprocesssu3_.groupId=susermembe4_.groupId)))))\n  ",
+			"?",
+			"ProcessSuperv",
+			"ProcessSupervised",
+			"ProcessAPII",
+			"SearchArchivedTasksSupervisedBy",
+			"login",
+			"casServerUrlRoot",
+			"\";\n",
+			"casServerUrl",
+			"casServerUrl ",
+			"casServerUrl",
+			"casURLPRefix",
+			"http://127.0.1.1:8888/loginservice?redirectUrl=portal%2Fhomepage%3Fgwt.codesvr%3D127.0.0.1%3A9997&gwt.codesvr=127.0.1.1:9997"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"1",
+			"1 =",
+			"=1",
+			"1 =",
+			"1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/julienreboul/workspace-distrib/bonita-distrib/pom.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1235,
+								1235
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 478.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/julienreboul/workspace-web/bonita-web/server/pom.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4201.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "webNodeWorkspace",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"bonita-server-sp",
+				"bonita-engine-sp/bpm/bonita-server/target/classes/META-INF/maven/com.bonitasoft.engine/bonita-server-sp/pom.xml"
+			],
+			[
+				"abstractarchivingstrategy",
+				"bonita-engine/services/bonita-archive/bonita-archive-impl/src/main/java/org/bonitasoft/engine/archive/impl/AbstractArchivingStrategy.java"
+			],
+			[
+				"listar",
+				"bonita-engine-sp/services/bonita-archive/bonita-archive-impl/src/main/java/com/bonitasoft/engine/archive/impl/ListArchivingStrategy.java"
+			],
+			[
+				"",
+				"~/.m2/settings.xml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

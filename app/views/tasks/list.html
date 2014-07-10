@@ -1,0 +1,107 @@
+<div>
+<div id='filtersAndSearch'>
+  <div ng-if='isFilterEnable()'>
+    <div id='filters'>
+      <ul class="nav nav-pills pull-left">
+        <li class="dropdown">
+          <a id="drop4" role="button" data-toggle="dropdown" href="#">State <span class="caret"></span></a>
+          <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">All Tasks</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Pending Tasks</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Hidden Tasks</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Done Tasks</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a id="drop5" role="button" data-toggle="dropdown" href="#">Assigned<span class="caret"></span></a>
+          <ul id="menu2" class="dropdown-menu" role="menu" aria-labelledby="drop5">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">All</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">To Me</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">To Someone Else Than Me</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">To No One</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a id="drop6" role="button" data-toggle="dropdown" href="#">Type<span class="caret"></span></a>
+          <ul id="menu3" class="dropdown-menu" role="menu" aria-labelledby="drop6">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">All</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Tasks</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">SubTasks</a></li>
+          </ul>
+        </li>
+      </ul>
+      <a class='btn btn-default pull-right' ng-click='showSearch()'><span class='glyphicon glyphicon-search'></span></a>
+    </div>
+  </div>
+  <form class="form-inline" role="form"  ng-if='isSearchEnable()'>
+    <div class="form-group col-md-5">
+      <div class="input-group">
+        <input class="form-control" type="text" placeholder="Enter keyword" ng-model='filter.searchKeyword'>
+        <div class="input-group-addon"><span class='glyphicon glyphicon-search'></span></div>
+      </div>
+    </div>
+    <div class="btn-group form-group col-md-5">
+      <button type="button" class="btn" popover-placement="top" popover="All tasks" popover-trigger='mouseenter'>100</button>
+      <button type="button" class="btn btn-success" popover-placement="top" popover="On Time Tasks" popover-trigger='mouseenter'>65</button>
+      <button type="button" class="btn btn-warning " popover-placement="top" popover="At Risk Tasks" popover-trigger='mouseenter'>74</button>
+      <button type="button" class="btn btn-danger" popover-placement="top" popover="Overdue Tasks" popover-trigger='mouseenter'>99</button>
+    </div>
+    <a class='btn btn-default pull-right' ng-click='showFilters()'><span class='glyphicon glyphicon-filter'></span></a>
+  </form>
+</div>
+<table class='table table-striped table-hover'>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Task Name</th>
+      <th>Process</th>
+      <th>Due Date</th>
+      <th>Priority</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="task in tasks" ng-click='selectTask(task.id)'>
+      <td></td>
+      <td>{{task.name}}</td>
+      <td>{{task.process.id}} - {{task.process.name}}</td>
+      <td>{{task.dueDate}}</td>
+      <td>{{task.priority}}</td>
+      <td>
+        <div class="dropdown">
+          <button class="btn btn-xs dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+            Actions
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Start</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Undo</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class='glyphicon glyphicon-plus-sign'></span> Comment</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class='glyphicon glyphicon-plus-sign'></span> Subtasks</a></li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+  </table>
+
+<div class="form-group btn-group ng-scope" dropdown="">
+        <button type="button" class="btn dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Columns <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-form" role="menu">
+          <li ng-click=''>
+              <label><input type="checkbox">Task Name</label>
+          </li>
+          <li>
+              <label><input type="checkbox">Process Name</label>
+          </li>
+          <li>
+              <label><input type="checkbox">Due Date</label>
+          </li>
+          <li>
+              <label><input type="checkbox">Priority</label>
+          </li>
+        </ul>
+    </div>
+</div>

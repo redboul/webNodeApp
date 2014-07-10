@@ -1,0 +1,21 @@
+<accordion close-others="oneAtATime">
+    <accordion-group>
+      <accordion-heading>Notifications <span class="badge pull-right">14</span>
+      </accordion-heading>
+      This content is straight in the template.
+    </accordion-group>
+    <accordion-group heading="Categories">
+      <p>The body of the accordion group grows to fit the contents</p>
+        <button class="btn btn-default btn-sm" ng-click="addItem()">Add Item</button>
+        <div ng-repeat="item in items">{{item}}</div>
+    </accordion-group>
+    <accordion-group heading='To Do'>
+        This is just some content to illustrate fancy headings.
+    </accordion-group>
+    <accordion-group heading='Follow Up'>
+        This is just some content to illustrate fancy headings.
+    </accordion-group>
+    <accordion-group heading='Closed'>
+        This is just some content to illustrate fancy headings.
+    </accordion-group>
+  </accordion>

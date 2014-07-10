@@ -1,0 +1,10 @@
+<div class="row marketing">
+  <p>This is the user view.</p>
+ <h4>Users</h4>
+  <div>
+    <ul>
+      <li ng-repeat="user in users"><a ng-href="#/users/edit/{{user.username}}">{{ user.username }}</a></li>
+    </ul>
+    <a class='addUser' ng-href='#/users/edit/'>Add a new User</a>
+  </div>
+</div>

@@ -1,0 +1,70 @@
+<div>
+  <tabset>
+    <tab heading="Form"><br>
+      <form role="form">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputFile">File input</label>
+          <input type="file" id="exampleInputFile">
+          <p class="help-block">Example block-level help text here.</p>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Check me out
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+
+    </tab>
+    <tab heading="Context">
+      <br/>
+      <h5>Milestones</h5>
+      <progress><bar ng-repeat="bar in task.process.milestones" value="bar.value" type="{{bar.type}}">{{bar.title}}</bar></progress>
+      <div ng-click="task.isCollapsed = !task.isCollapsed">
+        <h5>Current Tasks <span ng-if='!task.isCollapsed' class='glyphicon glyphicon-chevron-up pull-right'></span></h5>
+          <span ng-if='task.isCollapsed' class='glyphicon glyphicon-chevron-down pull-right'>
+          </span></h5>
+      </div>
+      <ul class='list-group'  collapse="task.isCollapsed">
+        <li class='list-group-item'>Name : {{task.name}}</li>
+        <li class='list-group-item'>Due Date : {{task.dueDate}}</li>
+        <li class='list-group-item'>Priority : {{task.priority}}</li>
+        <li class='list-group-item'>Actors :
+          <div class="btn-group">
+            <button ng-repeat='actor in task.actors' type="button" class="btn btn-primary">{{actor}}</button>
+          </div>
+        </li>
+      </ul>
+      <div ng-click="case.isCollapsed = !case.isCollapsed">
+        <h5>Case Info <span ng-if='!case.isCollapsed' class='glyphicon glyphicon-chevron-up pull-right'></span>
+        <span ng-if='case.isCollapsed' class='glyphicon glyphicon-chevron-down pull-right'>
+        </span></h5>
+      </div>
+      <ul class='list-group'  collapse="case.isCollapsed">
+        <li class='list-group-item'>Case's Name : {{task.process.name}}</li>
+        <li class='list-group-item'>Started by : {{task.process.startedBy}} on the {{task.process.startDate}}</li>
+        <li class='list-group-item'><a href='mailto:{{task.manager.email}}'><span class='glyphicon glyphicon-envelope'></span> {{task.process.manager.firstname}} {{task.process.manager.lastname}}</a></li>
+        <li class='list-group-item'>DeadLine : {{task.process.dueDate}}</li>
+      </ul>
+        <div ng-click="previousTask.isCollapsed = !previousTask.isCollapsed">
+          <h5>Previous Tasks <span ng-if='!previousTask.isCollapsed' class='glyphicon glyphicon-chevron-up pull-right'></span>
+            <span ng-if='previousTask.isCollapsed' class='glyphicon glyphicon-chevron-down pull-right'>
+            </span></h5>
+        </div>
+      <ul class='list-group'  collapse="previousTask.isCollapsed">
+        <li class='list-group-item'>Name : {{task.previous.name}}</li>
+        <li class='list-group-item'>Done on : {{task.previous.executionDate}}</li>
+        <li class='list-group-item'>Done by : {{task.previous.executedBy}}</li>
+      </ul>
+    </tab>
+    <tab heading="Subtask">Subtask</tab>
+  </tabset>
+</div>
