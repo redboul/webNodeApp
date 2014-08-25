@@ -12,7 +12,7 @@ var applicationRoot = __dirname,
 	http = require('http'),
 	errorhandler = require('errorhandler'),
     mongoose = require('mongoose');
-var databaseUrl = 'mongodb://localhost/simpleNodeApp';
+var databaseUrl = 'mongodb://localhost/webAppNode';
 var db = mongoose.connect(databaseUrl);
 var app = express();
 
@@ -74,7 +74,7 @@ app.post('/api/login', function (req, res){
                 console.log('we have found one:'+user);
                 res.end(JSON.stringify(user));
             } else {
-                res.end('no match found for this user:'+username);
+                res.end('no match found for this user:'+user);
             }
         });
     }

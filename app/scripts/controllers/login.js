@@ -14,7 +14,7 @@ angular.module('webNodeApp')
 				}
 				$scope.errorMessage = undefined;
 				var postData = {'user': user};
-				$http.post('http://192.168.0.226:9000/api/login', postData)
+				$http.post('http://192.168.1.35:9000/api/login', postData)
 					.success(function (data) {
 					$cookies.user = angular.toJson(data);
 					$rootScope.user = data;
